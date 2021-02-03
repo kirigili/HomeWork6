@@ -1,0 +1,245 @@
+body{
+	background-color: gainsboro;
+}
+
+.wrap {
+	width: 80%;
+	max-width: 1280px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 75px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 48px;
+	color: #212121;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.description {
+	margin: 0;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: #9FA3A7;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	margin: 0 170px;
+}
+
+.block_standart {
+	width: 25%;
+	padding: 40px 0;
+}
+
+.block_standart:not(:last-child) {
+	margin-right: 30px;
+}
+
+.money {
+	text-align: center;
+}
+
+.title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+}
+
+.dollar {
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 48px;
+}
+
+.num {
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 79px;
+}
+
+.cent {
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+.mounth {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 2.4px;
+}
+
+.text {
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.block_standart_button {
+	width: 135px;
+	height: 45px;
+	border: 2px solid #D8D8D8;
+	box-sizing: border-box;
+	border-radius: 100px;
+	background-color: white;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.click_button {
+	text-decoration: none;
+	color: black;
+}
+
+.block_white_button{
+	background: #FFC80A;
+	color: white;
+	border: none;
+}
+
+.block_white {
+	color: white;
+	background: #F05638;
+	border-radius: 6px;
+	background-image: url(../img/Rocket.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+
+
+
+.vl {
+	height: 400px;
+	border: 1px solid #E8E9ED;
+	background-color: #E8E9ED;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+.wrap-2 {
+	width: 1280px;
+	margin: 70px;
+	padding: 40px;
+	background-color: white;
+	display: flex;
+}
+
+.avatar-1 {
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;	
+}
+
+.avatar-2 {
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;	
+}
+
+.avatar-3 {
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;	
+}
+
+.font {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+
+.body	{
+	position: absolute;
+	top: 50px;
+}
+
+.clothing {
+	position: absolute;
+	top: 210px;
+}
+
+.eyes {
+	position: absolute;
+	top: 120px;
+	left: 110px;
+}
+
+.nose {
+	position: absolute;
+	top: 130px;
+	left: 140px;
+}
+
+.hair {
+	position: absolute;
+	top: -20px;
+	left: -20px;
+}
+
+.tonge {
+	position: absolute;
+	top: 190px;
+	left: 122px;
+}
+
